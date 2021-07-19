@@ -3,6 +3,7 @@ const { Tag, Product, ProductTag } = require('../../models');
 
 // The `/api/tags` endpoint
 
+//get all the products
 router.get('/', async (req, res) => {
   // find all tags
   try {
@@ -14,9 +15,9 @@ router.get('/', async (req, res) => {
   } catch (err) {
     res.status(500).json(err);
   }
-
 });
 
+//get one product
 router.get('/:id', async (req, res) => {
   // find a single tag by its `id`
   try {
