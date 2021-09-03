@@ -1,15 +1,37 @@
 # E-Commerce Back-End
 
-## Screenshot of E-Commerce Back End
+[![GitHub license](https://img.shields.io/badge/License-MIT-blue.svg)]()
+
+# Description
+
+This is as back-end app that utilizes a database and multiple tables that interact via API routes. It allows the user to search categories, products and tag. It also allows the user to seach, update and delete categories, products and tags by ID.
+
+## Screenshots of the app
 
 ![E-Commerce Back-End](./assets/demo-screenshot.jpg)
 
 ## Demo of the app
 
-To run the app you will need to use the following programs:
-* VS Code
-* MySQLWorkbench
-* Postman (In our Cohort we learned how to use Postman instead of Insomnia, therefore the Demo for this video was done in Postman)
+(Click on the image below to be redirected to the Youtube demo video)
+
+[![E-Commerce Back-End Demo](./assets/demo-screenshot.jpg)](https://youtu.be/2fE65vyScys)
+
+
+# Table of Contents
+
+* [Installation](#installation)
+    
+* [Usage](#usage)
+
+* [Technology](#technology)
+
+* [License](#license)
+
+* [Contributors](#contributors)
+
+* [Questions](#questions)
+
+# Installation
 
 To run the app you will need to follow the next few steps:
 
@@ -27,20 +49,28 @@ Once you verify the tables have been seeded run the following command in the roo
 node server.js
 ```
 
-#### Go to Postman and start requesting information form the api. Watch the demo below to get an idea of how to do this. 
----
+# Usage
 
-(Click on the image below to be redirected to the Youtube demo video)
+It allows the user to search categories, products and tag. It also allows the user to seach, update and delete categories, products and tags by ID.
 
-[![E-Commerce Back-End Demo](./assets/demo-screenshot.jpg)](https://youtu.be/2fE65vyScys)
+# Technology
 
----
-## My task
+* MySQL 2
+* Sequelize
+* Express
+* Node Js
+* Postman
 
-Your task is to build the back end for an e-commerce site by modifying starter code. You’ll configure a working Express.js API to use Sequelize to interact with a MySQL database.
+# License 
 
-Because this application won’t be deployed, you’ll also need to provide a link to a walkthrough video that demonstrates its functionality and all of the acceptance criteria being met. You’ll need to submit a link to the video and add it to the readme of your project.
+This project is governed by: MIT License
 
-I created the models and the routes for this project.
+# Contributors
 
+Blenda Orellana
 
+# Questions
+
+If you have any questions about the repo or the app please feel free to contact me
+ * Email: blen.or90@gmail.com
+ * Github: https://github.com/blen90
