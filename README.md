@@ -4,7 +4,7 @@
 
 # Description
 
-This is as back-end app that utilizes a database and multiple tables that interact via API routes. It allows the user to search categories, products and tag. It also allows the user to seach, update and delete categories, products and tags by ID.
+This is a back-end app that utilizes a database and multiple tables that interact via API routes. It allows the user to search categories, products, and tags. It also allows the user to search, update and delete categories, products, and tags by ID.
 
 ## Screenshots of the app
 
